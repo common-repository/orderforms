@@ -1,0 +1,20 @@
+{
+    "name": "orderforms/orderforms",
+    "description": "OrderForms.com WordPress Plugin",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Peter Harlacher",
+            "email": "harlacher@protonmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "OrderForms\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0"
+    }
+}
